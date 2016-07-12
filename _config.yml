@@ -22,3 +22,11 @@ markdown: kramdown
 
 collections:
   pasos:
+  
+defaults:
+  - scope:
+      path: ""
+      type: pasos
+    values:
+      orden: 0
+      
