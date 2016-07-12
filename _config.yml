@@ -28,5 +28,6 @@ defaults:
       path: ""
       type: pasos
     values:
+      title: "Paso #"
       orden: 0
       
