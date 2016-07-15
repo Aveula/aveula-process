@@ -23,6 +23,7 @@ permalink: /:path/:basename
 
 collections:
   pasos:
+    hide_content: true
   
 defaults:
   - scope:
