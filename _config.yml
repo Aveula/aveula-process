@@ -30,6 +30,7 @@ defaults:
       path: ""
       type: pasos
     values:
-      title: "Paso #"
+      title: ""
       orden: 0
+      descripcion: ""
       
