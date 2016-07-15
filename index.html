@@ -9,7 +9,10 @@ layout: default
   <ul class="post-list">
     {% assign pasos = site.pasos | sort: 'orden' %}
     {% for paso in pasos %}
-      <li>{{ paso.title }}</li>
+    <li>
+      <h2>{{ paso.title }}</h2>
+      <p>{{ paso.description }}</p>
+    </li>
     {% endfor %}
   </ul>
 
